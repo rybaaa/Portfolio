@@ -1,6 +1,7 @@
 .App {
-    margin: 0 auto;
-    background: radial-gradient(circle, rgba(231,234,249,1) 11%, rgba(223,169,181,1) 100%, rgba(223,87,124,1) 100%, rgba(233,72,121,1) 100%, rgba(252,70,107,1) 100%);
-    width: 80%;
-    height: 100vh;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    /*margin: 0 auto;*/
+    /*background: #F5F5F5;*/
+    /*width: 80%;*/
+    /*height: 100vh;*/
 }

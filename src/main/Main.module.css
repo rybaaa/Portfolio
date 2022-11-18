@@ -1,4 +1,15 @@
 .mainBlock {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 79px;
+    color: #282828;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    background: #F5F5F5;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }

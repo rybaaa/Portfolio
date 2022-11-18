@@ -1,0 +1,21 @@
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    margin: 0;
+}
+.skillsBlock {
+    background: #F5F5F5;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.allSkillsBlock {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}

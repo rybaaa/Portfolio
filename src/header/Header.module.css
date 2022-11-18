@@ -1,4 +1,7 @@
 .headerBlock {
-    width: 100%;
-    height: 96px;
+    width: 80%;
+    height: 110px;
+    background: #F5F5F5;
+    margin:0 auto;
+    border-bottom: 2px solid black;
 }
