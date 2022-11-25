@@ -8,7 +8,7 @@ h2 {
     margin: 0;
 }
 .skillsBlock {
-    background: #F5F5F5;
+    background: bisque; /*#F5F5F5*/
     width: 80%;
     margin: 0 auto;
     min-height: 100vh;

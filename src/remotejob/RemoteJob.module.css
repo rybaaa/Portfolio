@@ -1,7 +1,7 @@
 .wrapper {
     height: 100%;
     width: 80%;
-    background: #F5F5F5;
+    background: crimson; /*#F5F5F5*/
     margin: 0 auto;
     flex-wrap: wrap;
 }
