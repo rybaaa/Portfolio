@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "//rybaaa.github.io/Portfolio/static/css/main.3f3b9f56.css",
+    "main.js": "//rybaaa.github.io/Portfolio/static/js/main.164d7e89.js",
+    "static/js/787.1ed0c42c.chunk.js": "//rybaaa.github.io/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cute-cat.jpg": "//rybaaa.github.io/Portfolio/static/media/cute-cat.3e4b551713ed8a4d5558.jpg",
+    "static/media/react-svgrepo-com.svg": "//rybaaa.github.io/Portfolio/static/media/react-svgrepo-com.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/icon-html.svg": "//rybaaa.github.io/Portfolio/static/media/icon-html.bfe202ac433e038725296c75ea4d8082.svg",
+    "static/media/twitter-svgrepo-com.svg": "//rybaaa.github.io/Portfolio/static/media/twitter-svgrepo-com.5af9ad4a0f77c04c09547aff70dfb909.svg",
+    "static/media/telegram-logo-svgrepo-com.svg": "//rybaaa.github.io/Portfolio/static/media/telegram-logo-svgrepo-com.41785cbc399faf2eac6e4dff05244f05.svg",
+    "index.html": "//rybaaa.github.io/Portfolio/index.html",
+    "static/media/js_logo.svg": "//rybaaa.github.io/Portfolio/static/media/js_logo.0dd1cf6c80bb500c655a617006c1148a.svg",
+    "main.3f3b9f56.css.map": "//rybaaa.github.io/Portfolio/static/css/main.3f3b9f56.css.map",
+    "main.164d7e89.js.map": "//rybaaa.github.io/Portfolio/static/js/main.164d7e89.js.map",
+    "787.1ed0c42c.chunk.js.map": "//rybaaa.github.io/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f3b9f56.css",
+    "static/js/main.164d7e89.js"
+  ]
+}
