@@ -10,9 +10,9 @@ export const Skills = () => {
         <div className={s.skillsBlock}>
             <h2>Skills</h2>
             <div className={s.allSkillsBlock}>
-                <Skill title = {'HTML/CSS'} img={htmlLogo} description={'Information would be added.Information would be added.Information would be added.Information would be added.'}/>
+                <Skill title = {'HTML/CSS'} img={htmlLogo} description={'Information would be added.'}/>
                 <Skill title = {'JS/TS'} img={jsLogo} description={'Information would be added.Information would be added.Information would be added.Information would be added.Information would be added.'}/>
-                <Skill title = {'React/Redux'} img={reactLogo} description={'Information would be added.'}/>
+                <Skill title = {'React/Redux'} img={reactLogo} description={'Information would be added.Information would be added.Information would be added.Information would be added.'}/>
             </div>
         </div>
     );

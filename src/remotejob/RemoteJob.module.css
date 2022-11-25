@@ -1,0 +1,29 @@
+.wrapper {
+    height: 100%;
+    width: 80%;
+    background: #F5F5F5;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.hl {
+    border: 1px solid black;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
+
+.remoteForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}

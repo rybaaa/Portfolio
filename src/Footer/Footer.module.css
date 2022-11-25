@@ -1,0 +1,25 @@
+.wrapper {
+    height: 100%;
+    width: 80%;
+    background: #F5F5F5;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.footerBlock {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.rightsBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}

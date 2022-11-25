@@ -1,0 +1,13 @@
+.projectsBlock {
+    background: #F5F5F5;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.allProjectsBlock {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    flex-wrap: wrap;
+}
