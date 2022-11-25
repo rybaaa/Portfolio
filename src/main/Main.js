@@ -10,7 +10,7 @@ export const Main = () => {
                 <p>Hello. This information will be added</p>
             </div>
             <div>
-                <img src={photo} alt={'my-photo'}/>
+                <img className={s.img} src={photo} alt={'my-photo'}/>
             </div>
 
         </div>
