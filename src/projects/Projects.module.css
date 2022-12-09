@@ -11,3 +11,9 @@
     padding: 100px 0;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 749px) {
+    .allProjectsBlock{
+        gap:20px;
+    }
+}
