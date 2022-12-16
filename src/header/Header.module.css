@@ -1,7 +1,7 @@
 .headerBlock {
     width: 80%;
     height: 110px;
-    background: red; /*#F5F5F5*/
+    background-color: #262626;
     margin:0 auto;
     border-bottom: 2px solid black;
 }

@@ -4,11 +4,12 @@ import {Skill} from "./skill/Skill";
 import htmlLogo from '../assets/img/icon-html.svg'
 import jsLogo from '../assets/img/js_logo.svg'
 import reactLogo from '../assets/img/react-svgrepo-com.svg'
+import {Title} from "../common/components/Title";
 
 export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
-            <h2>Skills</h2>
+            <Title title = {'Skills'}/>
             <div className={s.allSkillsBlock}>
                 <Skill title = {'HTML/CSS'} img={htmlLogo} description={'Information would be added.'}/>
                 <Skill title = {'JS/TS'} img={jsLogo} description={'Information would be added.Information would be added.Information would be added.Information would be added.Information would be added.'}/>

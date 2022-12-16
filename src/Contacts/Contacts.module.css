@@ -1,9 +1,10 @@
 .wrapper {
     min-height: 50%;
     width: 80%;
-    background: aqua; /*#F5F5F5*/
+    background: #333;
     margin: 0 auto;
     flex-wrap: wrap;
+    color: #c5c3c3;
 }
 .formBlock {
     display: flex;

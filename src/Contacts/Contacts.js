@@ -9,6 +9,7 @@ export const Contacts = () => {
             <div className={s.formBlock}>
                 <form className={s.form} action="">
                     <TextField
+                        InputProps={{ inputProps: { style: { color: '#fff' }}}}
                         id="name"
                         placeholder="Your name"
                         margin="normal"
@@ -18,6 +19,7 @@ export const Contacts = () => {
                         }}
                     />
                     <TextField
+                        InputProps={{ inputProps: { style: { color: '#fff' }}}}
                         id="email"
                         placeholder="Your email"
                         margin="normal"

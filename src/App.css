@@ -1,4 +1,8 @@
 .App {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     background-color: grey;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
 }
