@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Main.module.css'
+import s from './Main.module.scss'
 import photo from '../assets/img/cute-cat.jpg'
 
 export const Main = () => {

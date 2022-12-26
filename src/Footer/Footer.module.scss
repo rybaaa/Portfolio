@@ -1,0 +1,44 @@
+@import '../common/sass/variables';
+
+.wrapper {
+    height: 100%;
+    width: 80%;
+    background: $BgSecondColor;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    color: $textColor2;
+    .footerBlock {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        & h3{
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 42px;
+            margin: 0;
+            text-align: center;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .rightsBlock {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            & span{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+
+
+

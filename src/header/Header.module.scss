@@ -1,7 +1,9 @@
+@import '../common/sass/variables';
+
 .headerBlock {
     width: 80%;
     height: 110px;
-    background-color: #262626;
+    background-color: $headerBgColor;
     margin:0 auto;
     border-bottom: 2px solid black;
 }

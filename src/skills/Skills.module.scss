@@ -1,0 +1,18 @@
+@import '../common/sass/variables';
+
+.skillsBlock {
+  background: $background;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100vh;
+
+  .allSkillsBlock {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+

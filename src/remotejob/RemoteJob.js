@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from "@material-ui/core";
-import s from './RemoteJob.module.css'
+import s from './RemoteJob.module.scss'
 
 export const RemoteJob = () => {
     return (
