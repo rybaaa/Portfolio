@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Project.module.css'
+import s from './Project.module.scss'
 import {Button} from "@material-ui/core";
 
 export const Project = (props) => {

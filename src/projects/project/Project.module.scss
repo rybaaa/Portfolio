@@ -1,0 +1,57 @@
+.projectBlock {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 150px;
+    margin-bottom: 15px;
+    & Button {
+        position: absolute;
+        left: 40%;
+        top: 45%;
+    }
+    & h3{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    & span{
+        color: #888;
+        font-weight: 400;
+        line-height: 1.8;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    .logoBlock {
+        position: relative;
+        height: 400px;
+        width: 100%;
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        &:hover::before{
+            position: absolute;
+            content: '';
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: black;
+            opacity: 0.4;
+        }
+    }
+    .projectInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
