@@ -1,22 +1,66 @@
 @import '../common/sass/variables';
+@import '../common/sass/mixins';
 
 .mainBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  @include title($titleFontFamily, 400, 30px);
+  font-style: normal;
+  color: #282828;
+  min-height: 100vh;
+  width: 80%;
+  background: $background;
+  padding-top: 20px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  text-align: center;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+
+    & h2 {
+      @include title($titleFontFamily, 700, 75px);
+      color: #282828;
+      margin: 0;
+      line-height: 1;
+    }
+
+    & h3 {
+      @include title($titleFontFamily, 700, 27px);
+      color: #282828;
+    }
+  }
+
+  .about {
     display: flex;
     justify-content: space-around;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 79px;
-    color: #282828;
-    align-items: center;
-    min-height: 100vh;
-    width: 80%;
-    background: $background;
-    margin: 0 auto;
     flex-wrap: wrap;
-    text-align: center;
-    .img {
-        max-width: 100%;
+
+    & h2 {
+      @include title($titleFontFamily, 700, 42px);
+      color: #282828;
     }
+
+    & p {
+      @include title(('Open Sans', sans-serif), 400, 14px);
+      line-height: 3;
+    }
+
+    .img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      & img {
+        max-width: 100%;
+      }
+    }
+  }
+
+
 }
 

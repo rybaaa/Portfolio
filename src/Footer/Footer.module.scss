@@ -1,4 +1,5 @@
 @import '../common/sass/variables';
+@import '../common/sass/mixins';
 
 .wrapper {
     height: 100%;
@@ -13,10 +14,8 @@
         flex-direction: column;
         gap:30px;
         & h3{
+            @include title($titleFontFamily, 700, 42px);
             color: #fff;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 700;
-            font-size: 42px;
             margin: 0;
             text-align: center;
         }

@@ -1,20 +1,18 @@
 @import '../../common/sass/variables.scss';
+@import '../../common/sass/mixins.scss';
 
 .navBlock {
   display: flex;
   height: 100%;
-  width: 100%;
+  width: 95%;
   justify-content: flex-end;
   gap: 50px;
   align-items: center;
   flex-wrap: wrap;
-
   & a {
-    font-family: 'Poppins', sans-serif;
+    @include title($titleFontFamily, 400, 24px);
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
     line-height: 28px;
     color: $navColor;
   }

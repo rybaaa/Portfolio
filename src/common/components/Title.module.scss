@@ -1,0 +1,10 @@
+@import "../sass/variables";
+@import "../sass/mixins";
+
+
+.title {
+    color: #333;
+    @include title($titleFontFamily, 700, 42px);
+    margin: 0 auto;
+    border-bottom: 1px solid #333;
+}
