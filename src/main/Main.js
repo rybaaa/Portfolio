@@ -9,8 +9,8 @@ export const Main = () => {
                 <h2>Anton Rybak</h2>
                 <h3>from Minsk</h3>
             </div>
-            <div className={s.about}>
-                <div>
+            <div className={s.profile}>
+                <div className={s.about}>
                     <h2>About Me</h2>
                     <p>Front-End Developer with a proven
                         ability to collaborate effectively with

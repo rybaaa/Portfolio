@@ -35,21 +35,22 @@
     }
   }
 
-  .about {
+  .profile {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    .about {
+      width: 50%;
+      & h2 {
+        @include title($titleFontFamily, 700, 42px);
+        color: #282828;
+      }
 
-    & h2 {
-      @include title($titleFontFamily, 700, 42px);
-      color: #282828;
+      & p {
+        @include title(('Open Sans', sans-serif), 400, 14px);
+        line-height: 3;
+      }
     }
-
-    & p {
-      @include title(('Open Sans', sans-serif), 400, 14px);
-      line-height: 3;
-    }
-
     .img {
       display: flex;
       align-items: center;
