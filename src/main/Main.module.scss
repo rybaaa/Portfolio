@@ -52,7 +52,7 @@
       }
 
       p {
-        @include title(('Open Sans', sans-serif), 400, 14px);
+        @include title(('Open Sans', sans-serif), 400, 16px);
         line-height: 2;
         @media screen and (max-width: 749px){
           font-size: 18px;

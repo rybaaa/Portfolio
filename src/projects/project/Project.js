@@ -6,7 +6,7 @@ export const Project = (props) => {
     return (
         <div className={s.projectBlock}>
             <div className={s.logoBlock} style={props.style}>
-                <a href={props.link}><img src={props.img} alt={'project logo'}/></a>
+                <a href={props.link}><img src={props.img}/></a>
                 <Button style={{opacity: '0.3'}} variant="contained" color="primary" href="" size={'large'}>
                     Link
                 </Button>
