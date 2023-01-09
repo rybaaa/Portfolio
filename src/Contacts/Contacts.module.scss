@@ -7,14 +7,11 @@
     margin: 0 auto;
     flex-wrap: wrap;
     color: $textColor3;
-    .hl {
-        border: 1px solid black;
-    }
     .formBlock {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 50px 0;
+        padding: 20px 0;
         .form {
             display: flex;
             flex-direction: column;

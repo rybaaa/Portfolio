@@ -9,6 +9,10 @@
   gap: 50px;
   align-items: center;
   flex-wrap: wrap;
+  @media screen and (max-width: 749px) {
+    gap: 20px;
+  }
+
   & a {
     @include title($titleFontFamily, 400, 24px);
     text-decoration: none;

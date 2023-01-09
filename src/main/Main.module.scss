@@ -38,19 +38,29 @@
   .profile {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
     .about {
       width: 50%;
-      & h2 {
+      @media screen and (max-width: 749px) {
+        width: 90%;
+      }
+
+      h2 {
         @include title($titleFontFamily, 700, 42px);
         color: #282828;
       }
 
-      & p {
+      p {
         @include title(('Open Sans', sans-serif), 400, 14px);
-        line-height: 3;
+        line-height: 2;
+        @media screen and (max-width: 749px){
+          font-size: 18px;
+
+        }
       }
     }
+
     .img {
       display: flex;
       align-items: center;
@@ -61,7 +71,7 @@
       }
     }
   }
-
-
 }
+
+
 
