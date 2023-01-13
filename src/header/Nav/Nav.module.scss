@@ -13,11 +13,33 @@
     gap: 20px;
   }
 
-  & a {
-    @include title($titleFontFamily, 400, 24px);
-    text-decoration: none;
-    font-style: normal;
-    line-height: 28px;
-    color: $navColor;
+  .navParts {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+    .homeImg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .ref {
+      padding-top: 3px;
+      @include title($titleFontFamily, 400, 16px);
+      text-decoration: none;
+      font-style: normal;
+      line-height: 28px;
+      color: $textColor1;
+    }
+
+    &:hover {
+      .homeImg {
+        filter: invert(17%) sepia(81%) saturate(4055%) hue-rotate(332deg) brightness(98%) contrast(116%);
+      }
+
+      .ref {
+        color: #ff014f;
+      }
+    }
   }
 }
