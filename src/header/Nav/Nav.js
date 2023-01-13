@@ -12,7 +12,7 @@ export const Nav = () => {
             <NavRef src={home} text = 'Main'/>
             <NavRef src={skills} text = 'Skills'/>
             <NavRef src={projects} text = 'Projects'/>
-            <NavRef src={contact} text = 'Contact'/>
+            <NavRef src={contact} text = 'Contacts'/>
         </div>
     );
 };
