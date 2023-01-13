@@ -3,4 +3,9 @@
   font-weight: $fontWeight;
   font-size: $fontSize;
 }
+@mixin flex($justifyContent, $alignItems){
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
 

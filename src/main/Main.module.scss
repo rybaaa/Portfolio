@@ -1,77 +1,60 @@
 @import '../common/sass/variables';
 @import '../common/sass/mixins';
 
-.mainBlock {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
-  @include title($titleFontFamily, 400, 30px);
-  font-style: normal;
-  color: #282828;
-  min-height: 100vh;
-  width: 80%;
+.wrapper {
   background: $background;
-  padding-top: 20px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  text-align: center;
+  min-height: 100vh;
+  @include flex(space-around, center);
 
-  .info {
-    display: flex;
-    flex-direction: column;
-
-    & h2 {
-      @include title($titleFontFamily, 700, 75px);
-      color: #282828;
-      margin: 0;
-      line-height: 1;
-    }
-
-    & h3 {
-      @include title($titleFontFamily, 700, 27px);
-      color: #282828;
-    }
-  }
-
-  .profile {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;
-
-    .about {
-      width: 50%;
-      @media screen and (max-width: 749px) {
-        width: 90%;
-      }
-
-      h2 {
-        @include title($titleFontFamily, 700, 42px);
-        color: #282828;
-      }
-
-      p {
-        @include title(('Open Sans', sans-serif), 400, 16px);
-        line-height: 2;
-        @media screen and (max-width: 749px){
-          font-size: 18px;
-
-        }
-      }
+  .mainBlock {
+    @include flex(space-around, center);
+    color: $textColor1;
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: start;
+    @media screen and (max-width: 1245px){
+      gap: 20px;
     }
 
     .img {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flex(center, center);
 
-      & img {
-        max-width: 100%;
+      img {
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+      }
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        @include title($titleFontFamily, 800, 48px);
+        color: $textColor1;
+        margin: 0;
+        line-height: 1.2;
+      }
+
+      h4 {
+        @include title($titleFontFamily, 500, 24px);
+        color: $textColor1;
+      }
+
+      p {
+        @include title($titleFontFamily, 500, 15px);
+        max-width: 450px;
+        line-height: 30px;
+        color: #bbb;
+        @media screen and (max-width: 749px) {
+          font-size: 18px;
+        }
       }
     }
   }
 }
-
 
 

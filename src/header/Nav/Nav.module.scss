@@ -2,20 +2,18 @@
 @import '../../common/sass/mixins.scss';
 
 .navBlock {
-  display: flex;
+  @include flex(flex-end, center);
   height: 100%;
   width: 95%;
-  justify-content: flex-end;
   gap: 50px;
-  align-items: center;
   flex-wrap: wrap;
   @media screen and (max-width: 749px) {
     gap: 20px;
   }
 
   .navParts {
-    display: flex;
-    align-items: center;
+    @include flex(flex-start, center);
+
     gap:10px;
     cursor: pointer;
     .homeImg {
