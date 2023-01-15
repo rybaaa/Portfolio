@@ -1,16 +1,22 @@
 @import '../common/sass/variables';
+@import '../common/sass/mixins';
 
-.skillsBlock {
-  background: $background;
-  width: 80%;
-  margin: 0 auto;
-  min-height: 100vh;
-  .allSkillsBlock {
-    display: flex;
-    justify-content: space-around;
-    padding: 100px 0;
-    flex-wrap: wrap;
-    gap: 20px;
+.wrapper {
+  background: $background2;
+
+  .skillsBlock {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
+
+    .allSkillsBlock {
+      @include flex(center, flex-start);
+      padding: 100px 0;
+      flex-wrap: wrap;
+      @media screen and (max-width: 749px) {
+        padding: 20px 0;
+      }
+    }
   }
 }
 

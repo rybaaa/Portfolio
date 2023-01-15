@@ -2,31 +2,33 @@
 @import '../../common/sass/mixins';
 
 .skillBlock {
-  width: 300px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: $BgThirdColor;
   padding: 20px;
-  min-height: 150px;
-  margin-bottom: 15px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  cursor: pointer;
+  margin: 10px;
 
-  & h3 {
-    @include title($titleFontFamily, 400, 24px);
+  &:hover {
+    background: linear-gradient(to right bottom, #212428, #16181c);
   }
 
-  & span {
-    color: $textColor1;
-    font-weight: 400;
-    line-height: 1.8;
-    font-size: 18px;
-    margin: 0 0 10px;
+  .skillImg {
+    img {
+      width: 60px;
+      height: 60px;
+      filter: invert(17%) sepia(81%) saturate(4055%) hue-rotate(332deg) brightness(98%) contrast(116%);
+    }
   }
 
-  & img {
-    width: 50px;
-    height: 50px;
+  h4 {
+    @include title($titleFontFamily, 500, 24px);
+    line-height: 32px;
+    color: #c4cfde;
   }
 }
 

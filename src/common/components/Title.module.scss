@@ -1,11 +1,25 @@
 @import "../sass/variables";
 @import "../sass/mixins";
 
-
-.title {
-    color: #333;
-    @include title($titleFontFamily, 700, 42px);
-    margin: 0 auto;
-    border-bottom: 1px solid #333;
-    padding-left: 20px;
+.wrapper {
+    @include flex(space-around, center);
+    flex-direction: column;
+    padding-top: 100px;
+    @media screen and (max-width: 749px) {
+        padding-top: 20px;
+    }
+    .text {
+        @include title(("Montserrat",sans-serif), 500, 14px);
+        letter-spacing: 1px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color:#f9004d;
+    }
+    .title {
+        @include title(("Montserrat",sans-serif), 700, 60px);
+        margin: 15px auto;
+        line-height: 1.2;
+        color: #c4cfde;
+    }
 }
+
