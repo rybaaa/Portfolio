@@ -2,39 +2,41 @@
 @import '../common/sass/mixins';
 
 .wrapper {
+  background: $background;
+
+  .footerBlock {
     height: 100%;
     width: 80%;
-    background: $BgSecondColor;
     margin: 0 auto;
     flex-wrap: wrap;
-    color: $textColor2;
-    .footerBlock {
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        gap:30px;
-        & h3{
-            @include title($titleFontFamily, 700, 42px);
-            color: #fff;
-            margin: 0;
-            text-align: center;
-        }
-        .icons {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-        }
-        .rightsBlock {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap:10px;
-            & span{
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 400;
-            }
-        }
+    padding: 20px;
+    @include flex(center, center);
+    flex-direction: column;
+    gap: 30px;
+
+    h4 {
+      @include title($titleFontFamily, 700, 29px);
+      color: #e4e6ea;
+      line-height: 44px;
+      margin: 0;
+      text-align: center;
     }
+
+    .icons {
+      @include flex(center, center);
+      gap: 50px;
+    }
+
+    .rightsBlock {
+      @include flex(center, center);
+      gap: 10px;
+
+      span {
+        @include title($titleFontFamily, 400, 17px);
+        color: #878e99;
+      }
+    }
+  }
 }
 
 

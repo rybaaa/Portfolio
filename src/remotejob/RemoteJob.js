@@ -6,8 +6,14 @@ export const RemoteJob = () => {
     return (
         <div className={s.wrapper}>
             <div className={s.remoteForm}>
-                <h3>Free to remote job!</h3>
-                <Button variant="contained" size={"large"} color={'primary'} href="" >Hire Me</Button>
+                <h2>Free to remote job!</h2>
+                <Button
+                    style={{backgroundColor:'#f9004d'}}
+                    variant="contained"
+                    size={"large"}
+                    href="https://www.linkedin.com/in/anton-rybak-8babb6188/"
+                    target={'_blank'}
+                >Hire Me</Button>
             </div>
         </div>
     );

@@ -14,6 +14,7 @@
         line-height: 14px;
         text-transform: uppercase;
         color:#f9004d;
+        text-align: center;
     }
     .title {
         @include title(("Montserrat",sans-serif), 700, 60px);

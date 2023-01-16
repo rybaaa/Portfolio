@@ -19,23 +19,24 @@ export const Contacts = () => {
                             shrink: true,
                         }}
                         sx={{
-                            "& .MuiInputLabel-root": {color: "#1976d2"},
-                            border: "1px solid #1976d2",
+                            "& .MuiInputLabel-root": {color: "#ff014f"},
+                            border: "1px solid #ff014f",
                             borderRadius: 1,
                             "& .MuiOutlinedInput-root.Mui-focused": {
                                 "& > fieldset": {
-                                    borderColor: "#1976d2"
+                                    borderColor: "#ff014f"
                                 }
                             },
                             "& .MuiOutlinedInput-root:hover": {
                                 "& > fieldset": {
-                                    borderColor: '#1976d2'
+                                    borderColor: '#ff014f'
                                 }
                             }
                         }}
                     />
                     <TextField
                         InputProps={{inputProps: {style: {color: '#fff'}}}}
+                        type={'email'}
                         id="email"
                         placeholder="Your email"
                         margin="normal"
@@ -44,17 +45,17 @@ export const Contacts = () => {
                             shrink: true,
                         }}
                         sx={{
-                            "& .MuiInputLabel-root": {color: "#1976d2"},
-                            border: "1px solid #1976d2",
+                            "& .MuiInputLabel-root": {color: "#ff014f"},
+                            border: "1px solid #ff014f",
                             borderRadius: 1,
                             "& .MuiOutlinedInput-root.Mui-focused": {
                                 "& > fieldset": {
-                                    borderColor: "#1976d2"
+                                    borderColor: "#ff014f"
                                 }
                             },
                             "& .MuiOutlinedInput-root:hover": {
                                 "& > fieldset": {
-                                    borderColor: '#1976d2'
+                                    borderColor: '#ff014f'
                                 }
                             }
                         }}
@@ -69,26 +70,33 @@ export const Contacts = () => {
                         margin="normal"
                         InputProps={{inputProps: {style: {color: '#fff'}}}}
                         sx={{
-                            "& .MuiInputLabel-root": {color: "#1976d2"},
-                            border: "1px solid #1976d2",
+                            "& .MuiInputLabel-root": {color: "#ff014f"},
+                            border: "1px solid #ff014f",
                             borderRadius: 1,
                             "& .MuiOutlinedInput-root.Mui-focused": {
                                 "& > fieldset": {
-                                    borderColor: "#1976d2"
+                                    borderColor: "#ff014f"
                                 }
                             },
                             "& .MuiOutlinedInput-root:hover": {
                                 "& > fieldset": {
-                                    borderColor: '#1976d2'
-                                }}
+                                    borderColor: '#ff014f'
+                                }
+                            }
                         }}
                     />
                 </form>
-                <Button variant="contained"
-                        size={"large"}
-                        color={'primary'}
-                        disableElevation
-                        href="">
+                <Button
+                    style={{backgroundColor: '#f9004d'}}
+                    variant="contained"
+                    size={"large"}
+                    disableElevation
+                    sx={{
+                        ':hover': {
+                            opacity:'0.8'
+                        }
+                    }}
+                    href="mailto: bolshayaryba22@gmail.com">
                     Send Message
                 </Button>
             </div>

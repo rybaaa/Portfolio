@@ -2,51 +2,76 @@
 @import '../../common/sass/mixins';
 
 .projectBlock {
-    width: 400px;
+  height: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(145deg,#1e2024,#23272b);
+  border-radius: 20px;
+  box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
+  padding: 30px;
+  margin:20px;
+  &:hover{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    .projectInfo{
+      h4 {
+        color:#f9004d;
+      }
+    }
+  }
+
+  h3 {
+    @include title($titleFontFamily, 400, 24px);
+  }
+
+  span {
+    color: $textColor1;
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+
+  .logoBlock {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include flex(center, center);
+
+    &:hover::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: black;
+      opacity: 0.4;
+    }
+  }
+
+  .projectInfo {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    min-height: 150px;
-    margin-bottom: 15px;
-    & Button {
-        position: absolute;
-        left: 40%;
-        top: 45%;
+    align-items: flex-start;
+
+    h4 {
+      color: #c4cfde;
+      @include title(("Montserrat", sans-serif), 600, 23px);
+      line-height: 34px;
     }
-    & h3{
-        @include title($titleFontFamily, 400, 24px);
+
+    .description {
+      color: #ff014f;
+      @include title(("Montserrat", sans-serif), 500, 12px);
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
-    & span{
-        color: $textColor1;
-        font-weight: 400;
-        line-height: 1.8;
-        font-size: 18px;
-        margin: 0 0 10px;
-    }
-    .logoBlock {
-        position: relative;
-        height: 400px;
-        width: 400px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        &:hover::before{
-            position: absolute;
-            content: '';
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            background: black;
-            opacity: 0.4;
-        }
-    }
-    .projectInfo{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  }
 }
 
 

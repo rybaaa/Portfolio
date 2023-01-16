@@ -1,26 +1,27 @@
 @import '../common/sass/variables';
+@import '../common/sass/mixins';
 
 .wrapper {
+  background: $background2;
+
+  .formBlock {
     min-height: 50%;
     width: 80%;
-    background: $BgSecondColor;
     margin: 0 auto;
     flex-wrap: wrap;
     color: $textColor3;
-    .formBlock {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-        .form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-bottom: 50px;
-            width: 70%;
-            margin: 0 auto;
-        }
+    @include flex(flex-start, center);
+    flex-direction: column;
+    padding: 20px 0;
+
+    .form {
+      @include flex(center, center);
+      flex-direction: column;
+      padding-bottom: 50px;
+      width: 70%;
+      margin: 0 auto;
     }
+  }
 }
 
 
