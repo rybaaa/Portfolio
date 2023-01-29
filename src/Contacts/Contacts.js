@@ -89,6 +89,7 @@ export const Contacts = () => {
                         />
                     </form>
                     <Button
+                        className={s.btn}
                         style={{backgroundColor: '#f9004d'}}
                         variant="contained"
                         size={"large"}

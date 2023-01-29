@@ -8,6 +8,7 @@ export const RemoteJob = () => {
             <div className={s.remoteForm}>
                 <h2>Free to remote job!</h2>
                 <Button
+                    className={s.btn}
                     style={{backgroundColor:'#f9004d'}}
                     variant="contained"
                     size={"large"}

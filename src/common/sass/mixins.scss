@@ -8,4 +8,8 @@
   justify-content: $justifyContent;
   align-items: $alignItems;
 }
+@mixin btnHover(){
+  transition: 0.5s;
+  transform: translateY(-3px);
+}
 

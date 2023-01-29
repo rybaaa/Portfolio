@@ -15,6 +15,7 @@
 
   &:hover {
     background: linear-gradient(to right bottom, #212428, #16181c);
+    @include btnHover;
     h4 {
       color:#f9004d;
     }

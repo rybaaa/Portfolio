@@ -25,6 +25,11 @@
     .icons {
       @include flex(center, center);
       gap: 50px;
+      .iconsBtn{
+        &:hover{
+          @include btnHover;
+        }
+      }
     }
 
     .rightsBlock {

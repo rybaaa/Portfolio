@@ -7,6 +7,7 @@ export const Project = (props) => {
         <div className={s.projectBlock}>
             <div className={s.logoBlock} style={props.style}>
                 <Button
+                    className={s.btn}
                     style={{opacity: '0.8', backgroundColor: '#f9004d'}}
                     variant="contained"
                     color="primary"

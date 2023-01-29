@@ -11,9 +11,9 @@ export const Footer = () => {
             <div className={s.footerBlock}>
                 <h4>Anton Rybak</h4>
                 <div className={s.icons}>
-                    <TelegramIcon color={'secondary'} fontSize={'large'} cursor={'pointer'} onClick={() => window.open('https://t.me/currentpos')}/>
-                    <LinkedInIcon color={'secondary'} fontSize={'large'} cursor={'pointer'} onClick={() => window.open('https://www.linkedin.com/in/anton-rybak-8babb6188/')} />
-                    <FacebookIcon color={'secondary'} fontSize={'large'} cursor={'pointer'} onClick={() => window.open('https://www.facebook.com/anton.rybak.75')} />
+                    <TelegramIcon className={s.iconsBtn} color={'secondary'} fontSize={'large'} cursor={'pointer'} onClick={() => window.open('https://t.me/currentpos')}/>
+                    <LinkedInIcon className={s.iconsBtn} color={'secondary'} fontSize={'large'} cursor={'pointer'} onClick={() => window.open('https://www.linkedin.com/in/anton-rybak-8babb6188/')} />
+                    <FacebookIcon className={s.iconsBtn} color={'secondary'} fontSize={'large'} cursor={'pointer'} onClick={() => window.open('https://www.facebook.com/anton.rybak.75')} />
                 </div>
                 <div className={s.rightsBlock}>
                     <CopyrightIcon color={'secondary'}/>

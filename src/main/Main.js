@@ -1,9 +1,10 @@
 import React from 'react';
 import s from './Main.module.scss'
-import photo from '../assets/img/photo.jpg'
 import {ParticlesBackground} from "../common/components/Particles/ParticlesBackground";
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt'
+
 
 
 export const Main = () => {
@@ -12,9 +13,11 @@ export const Main = () => {
             <ParticlesBackground/>
             <div className={s.mainBlock}>
                 <Fade left>
-                    <div className={s.img}>
-                        <img src={photo} alt={'my-photo'}/>
-                    </div>
+                    <Tilt className="Tilt" options={{ max : 25 }}  >
+                        <div className={s.img}>
+                            <div className={s.absImg}></div>
+                        </div>
+                    </Tilt>
                 </Fade>
                 <Fade right>
                     <div className={s.info}>
