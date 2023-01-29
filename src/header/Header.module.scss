@@ -1,10 +1,13 @@
 @import '../common/sass/variables';
 
 .headerBlock {
-    min-height: 60px;
-    background-color: $headerBgColor;
-    margin:0 auto;
-    border-bottom: 2px solid black;
-    display: flex;
-    align-items: center;
+  min-height: 60px;
+  background-color: $headerBgColor;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
