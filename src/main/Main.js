@@ -3,6 +3,7 @@ import s from './Main.module.scss'
 import photo from '../assets/img/photo.jpg'
 import {ParticlesBackground} from "../common/components/Particles/ParticlesBackground";
 import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
 
 
 export const Main = () => {
@@ -18,9 +19,11 @@ export const Main = () => {
                 <Fade right>
                     <div className={s.info}>
                         <h3>Anton Rybak</h3>
-                        <h4>Front End Developer</h4>
+                        <ReactTypingEffect
+                            text={["Front End Developer."]}
+                        />
                         <p>I'm a Front End Developer from Belarus.
-                            Focused on building products with Javascript / React.
+                            Focused on building products with TypeScript / React.
                         </p>
                     </div>
                 </Fade>

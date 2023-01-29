@@ -38,8 +38,7 @@
         margin: 0;
         line-height: 1.2;
       }
-
-      h4 {
+      :nth-child(2) {
         @include title($titleFontFamily, 500, 24px);
         color: $textColor1;
       }
