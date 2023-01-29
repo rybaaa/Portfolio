@@ -11,7 +11,7 @@ import postmanLogo from '../assets/img/postman.svg'
 import storybookLogo from '../assets/img/storybook.svg'
 import gitLogo from '../assets/img/git.svg'
 import sassLogo from '../assets/img/sass.svg'
-import {Title} from "../common/components/Title";
+import {Title} from "../common/components/Title/Title";
 
 export const Skills = () => {
     return (

@@ -2,7 +2,7 @@
 @import '../common/sass/mixins';
 
 .wrapper {
-  background: $background;
+  //background: $background;
   min-height: 100vh;
   @include flex(space-around, center);
 
@@ -14,7 +14,7 @@
     margin: 0 auto;
     flex-wrap: wrap;
     text-align: start;
-    @media screen and (max-width: 1245px){
+    @media screen and (max-width: 1245px) {
       gap: 20px;
     }
 
