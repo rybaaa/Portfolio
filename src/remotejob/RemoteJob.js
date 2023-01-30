@@ -4,7 +4,7 @@ import s from './RemoteJob.module.scss'
 
 export const RemoteJob = () => {
     return (
-        <div className={s.wrapper}>
+        <div id='contacts'  className={s.wrapper}>
             <div className={s.remoteForm}>
                 <h2>Free to remote job!</h2>
                 <Button

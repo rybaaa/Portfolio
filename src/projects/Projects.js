@@ -20,7 +20,7 @@ export const Projects = () => {
         backgroundImage: `url(${flashcardsImg})`
     }
     return (
-        <div className={s.wrapper}>
+        <div id='projects' className={s.wrapper}>
             <div className={s.projectsBlock}>
                 <Title title={'Projects'} text = {'VISIT MY GITHUB AND KEEP YOUR FEEDBACK'}/>
                 <Fade left>

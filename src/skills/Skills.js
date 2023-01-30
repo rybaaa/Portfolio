@@ -16,7 +16,7 @@ import Fade from 'react-reveal/Fade';
 
 export const Skills = () => {
     return (
-        <div className={s.wrapper}>
+        <div id='skills' className={s.wrapper}>
             <div className={s.skillsBlock}>
                 <Title title = {'Skills'} text={'Stack'} />
                 <Fade left>

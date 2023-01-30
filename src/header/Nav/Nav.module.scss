@@ -11,6 +11,17 @@
     gap: 20px;
   }
 
+  .active{
+    .navParts{
+      .homeImg{
+        filter: invert(17%) sepia(81%) saturate(4055%) hue-rotate(332deg) brightness(98%) contrast(116%);
+      }
+      .ref {
+        color: #ff014f;
+      }
+    }
+  }
+
   .navParts {
     @include flex(flex-start, center);
 

@@ -5,7 +5,7 @@ export const NavRef = (props) => {
     return (
         <div className={s.navParts}>
             <img className={s.homeImg} src={props.src} alt={'navigation image'}/>
-            <a className={s.ref} href='#'>{props.text}</a>
+            <p className={s.ref}>{props.text}</p>
         </div>
     )
 }

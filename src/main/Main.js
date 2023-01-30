@@ -9,7 +9,7 @@ import Tilt from 'react-tilt'
 
 export const Main = () => {
     return (
-        <div className={s.wrapper}>
+        <div id='main' className={s.wrapper}>
             <ParticlesBackground/>
             <div className={s.mainBlock}>
                 <Fade left>
