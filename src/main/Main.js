@@ -25,8 +25,8 @@ export const Main = () => {
                         <ReactTypingEffect
                             text={["Front End Developer."]}
                         />
-                        <p>I'm a Front End Developer from Belarus.
-                            Focused on building products with TypeScript / React.
+                        <p>I'm a Front End Developer.
+                            Focused on building products with React / TypeScript.
                         </p>
                     </div>
                 </Fade>

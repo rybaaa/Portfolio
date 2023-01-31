@@ -3,12 +3,13 @@
 
 .navBlock {
   @include flex(flex-end, center);
+  padding: 0 20px;
   height: 100%;
-  width: 95%;
+  width: 100%;
   gap: 50px;
   flex-wrap: wrap;
   @media screen and (max-width: 749px) {
-    gap: 20px;
+    display: none;
   }
 
   .active{
@@ -20,6 +21,10 @@
         color: #ff014f;
       }
     }
+  }
+
+  .show {
+
   }
 
   .navParts {
@@ -35,11 +40,6 @@
 
     .ref {
       padding-top: 3px;
-      @include title($titleFontFamily, 400, 16px);
-      text-decoration: none;
-      font-style: normal;
-      line-height: 28px;
-      color: $textColor1;
     }
 
     &:hover {

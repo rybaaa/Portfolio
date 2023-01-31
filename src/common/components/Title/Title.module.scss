@@ -4,10 +4,7 @@
 .wrapper {
     @include flex(space-around, center);
     flex-direction: column;
-    padding-top: 100px;
-    @media screen and (max-width: 749px) {
-        padding-top: 20px;
-    }
+    padding-top: 130px;
     .text {
         @include title(("Montserrat",sans-serif), 500, 14px);
         letter-spacing: 1px;
