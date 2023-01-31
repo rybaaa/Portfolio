@@ -5,8 +5,6 @@ import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-tilt'
 
-
-
 export const Main = () => {
     return (
         <div id='main' className={s.wrapper}>
@@ -33,7 +31,6 @@ export const Main = () => {
 
             </div>
         </div>
-
     );
 };
 

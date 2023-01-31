@@ -64,7 +64,7 @@ export const BurgerNav = () => {
                     Contacts
                 </Link>
             </div>
-            <div onClick={changeBurgerHandler} className={burgerIsActive? `${s.closeBtn}`: `${s.burgerBtn}`}>
+            <div onBlur={changeBurgerHandler} onClick={changeBurgerHandler} className={burgerIsActive? `${s.closeBtn}`: `${s.burgerBtn}`}>
                 <div className={s.burgerBtnItems}></div>
             </div>
         </div>
