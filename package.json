@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://rybaaa.github.io/Portfolio",
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@material-ui/core": "^4.12.4",
