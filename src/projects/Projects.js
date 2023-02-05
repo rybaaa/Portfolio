@@ -25,8 +25,8 @@ export const Projects = () => {
                 <Title title={'Projects'} text = {'VISIT MY GITHUB AND KEEP YOUR FEEDBACK'}/>
                 <Fade left>
                     <div className={s.allProjectsBlock}>
-                        <Project style = {flashcards} title = {'FlashCards'} link={'https://github.com/tkachiko/flashcards'} description={'Open-source start-up project using React-hooks, Redux Toolkit, Axios and Rest API'}/>
-                        <Project style = {todo} title = {'Todolist'} link={'https://github.com/rybaaa/ToDoList'} description={'Project for your daily and work duties using React-hooks, Redux, Axios and Rest API'}/>
+                        <Project style = {flashcards} title = {'FlashCards'} link={'https://github.com/rybaaa/flashcards'} description={'Open-source start-up project using React-hooks, Redux Toolkit, Axios and Rest API'}/>
+                        <Project style = {todo} title = {'Todolist'} link={'https://github.com/rybaaa/React-Todolist'} description={'Project for your daily and work duties using React-hooks, Redux, Axios and Rest API'}/>
                         <Project style = {socNet} title = {'Social Network'} link={'https://github.com/rybaaa/social-network'}  description={'Developers social network. Many features still in progress. But you can use base functions'}/>
                     </div>
                 </Fade>
