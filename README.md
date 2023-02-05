@@ -1,1 +1,1 @@
-# [My-Portfolio](https://rybaaa.github.io/Portfolio)
+# [My-Portfolio](https://anton-rybak.netlify.app/)
