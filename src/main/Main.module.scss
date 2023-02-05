@@ -4,7 +4,9 @@
 .wrapper {
   min-height: 100vh;
   @include flex(space-around, center);
-
+  @media screen and (max-width: 749px) {
+    background-color: $background;
+  }
   .mainBlock {
     @include flex(space-around, center);
     color: $textColor1;
