@@ -6,8 +6,12 @@ import {Projects} from "./projects/Projects";
 import {RemoteJob} from "./remotejob/RemoteJob";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
+import {useEffect} from "react";
 
 function App() {
+    useEffect(()=>{
+        document.title = 'Anton Rybak Portfolio';
+    },[])
     return (
         <div className="App">
             <Header/>
