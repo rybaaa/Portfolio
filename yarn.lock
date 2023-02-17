@@ -8576,13 +8576,6 @@ react-is@^18.0.0, react-is@^18.2.0:
   resolved "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-particles-js@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-3.6.0.tgz#3c9c22fbf93150d1fd1a190cd060ec1d6dcaa373"
-  integrity sha512-gQzUKZgPpjdplhAtskLnn9frLyei6uGuWabNtBGWnr3eZpHXfXJO1F8sedPhO29xfpKixE3HEejwGQAld8K16Q==
-  dependencies:
-    lodash "^4.17.11"
-
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
@@ -9397,6 +9390,11 @@ sprintf-js@~1.0.2:
   resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
+ssr-window@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-4.0.2.tgz#dc6b3ee37be86ac0e3ddc60030f7b3bc9b8553be"
+  integrity sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==
+
 ssri@^8.0.0, ssri@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-8.0.1.tgz#638e4e439e2ffbd2cd289776d5ca457c4f51a2af"
@@ -9671,6 +9669,13 @@ svgo@^2.7.0:
     csso "^4.2.0"
     picocolors "^1.0.0"
     stable "^0.1.8"
+
+swiper@^9.0.5:
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-9.0.5.tgz#cd6b6520d2431e3809f51fb8682f5a37e8295e4a"
+  integrity sha512-UiLQ5fvn8L3ZZpaPa+9oiwKwhVGQt5TVc0UuXxFKHyTQe8g2E3vbPMiMfIGb6NhNGj5ntsSDyyNgg4qVmWlJkQ==
+  dependencies:
+    ssr-window "^4.0.2"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
