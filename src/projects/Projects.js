@@ -5,6 +5,7 @@ import todoImg from '../assets/img/todolist.jpg'
 import socNetImg from '../assets/img/social-network.jpg'
 import flashcardsImg from '../assets/img/flashcards.jpeg'
 import reposImg from '../assets/img/gitgraph.png'
+import oswaImg from '../assets/img/oswa.JPG'
 import Fade from 'react-reveal/Fade';
 import React from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
@@ -28,6 +29,9 @@ export const Projects = () => {
     const repos = {
         backgroundImage: `url(${reposImg})`
     }
+    const oswaShop = {
+        backgroundImage: `url(${oswaImg})`
+    }
     return (
         <div id='projects' className={s.wrapper}>
             <div className={s.projectsBlock}>
@@ -35,10 +39,13 @@ export const Projects = () => {
                 <Fade left>
                     <div className={s.allProjectsBlock}>
                         <Project style={flashcards} title={'FlashCards'} link={'https://github.com/rybaaa/flashcards'}
-                                 description={'Open-source start-up project using React-hooks, Redux Toolkit, Axios and Rest API'}/>
+                                 description={'Open-source start-up project for learning words and other fields of studying using React-hooks, Redux Toolkit, Axios and Rest API'}/>
                         <Project style={repos} title={'Searching of GitHub repositories'}
                                  link={'https://github.com/rybaaa/Repos-with-GitHub-GraphQL'}
-                                 description={'Project using JavaScript, Vue, Vuex, GraphQL, Axios'}/>
+                                 description={'Project with searching of github repositories, its issues and comments using JavaScript, Vue, Vuex, GraphQL, Axios'}/>
+                        <Project style={oswaShop} title={'Oswa shopping'}
+                                 link={'https://github.com/rybaaa/Oswa-shopping'}
+                                 description={'E-shop with various types of product. Full-stack application. Front-end: Typescript/React, Back-end: Express.js. Many features still in progress'}/>
                         <Project style={todo} title={'Todolist'} link={'https://github.com/rybaaa/React-Todolist'}
                                  description={'Project for your daily and work duties using React-hooks, Redux, Axios and Rest API'}/>
                         <Project style={socNet} title={'Social Network'}
@@ -63,11 +70,14 @@ export const Projects = () => {
                     >
                         <SwiperSlide> <Project style={flashcards} title={'FlashCards'}
                                                link={'https://github.com/rybaaa/flashcards'}
-                                               description={'Open-source start-up project using React-hooks, Redux Toolkit, Axios and Rest API'}/>
+                                               description={'Open-source start-up project for learning words and other fields of studying using React-hooks, Redux Toolkit, Axios and Rest API'}/>
                         </SwiperSlide>
                         <SwiperSlide><Project style={repos} title={'Searching of GitHub repositories'}
                                               link={'https://github.com/rybaaa/Repos-with-GitHub-GraphQL'}
-                                              description={'Project using JavaScript, Vue, Vuex, GraphQL, Axios'}/></SwiperSlide>
+                                              description={'Project with searching of github repositories, its issues and comments using JavaScript, Vue, Vuex, GraphQL, Axios'}/></SwiperSlide>
+                        <SwiperSlide><Project style={oswaShop} title={'Oswa shopping'}
+                                              link={'https://github.com/rybaaa/Oswa-shopping'}
+                                              description={'E-shop with various types of product. Full-stack application. Front-end:Typescript/React, Back-end: Express.js. Many features still in progress'}/></SwiperSlide>
                         <SwiperSlide><Project style={todo} title={'Todolist'} link={'https://github.com/rybaaa/React-Todolist'}
                                               description={'Project for your daily and work duties using React-hooks, Redux, Axios and Rest API'}/></SwiperSlide>
                         <SwiperSlide><Project style={socNet} title={'Social Network'}
