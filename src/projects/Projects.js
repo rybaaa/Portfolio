@@ -5,7 +5,7 @@ import todoImg from '../assets/img/todolist.jpg'
 import socNetImg from '../assets/img/social-network.jpg'
 import flashcardsImg from '../assets/img/flashcards.jpeg'
 import reposImg from '../assets/img/gitgraph.png'
-import oswaImg from '../assets/img/oswa.png'
+import oswaImg from '../assets/img/oswa.jpg'
 import Fade from 'react-reveal/Fade';
 import React from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
